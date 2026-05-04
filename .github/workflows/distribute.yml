@@ -1,0 +1,18 @@
+on:
+    release:
+        types: [published]
+jobs:
+    make_release:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Check out the repository to the runner
+            uses: actions/checkout@v6
+
+          - name: Create zip archive
+            run: zip -r Noir-${{ github.event.release.name }}.zip ./Noir/ ./Noir\ White/
+
+          - name: Add the archive to the latest release
+            uses: svenstaro/upload-release-action@v2
+            with:
+                repo_token: ${{ secrets.GITHUB_TOKEN }}
+                file: Noir-${{ github.event.release.name }}.zip
