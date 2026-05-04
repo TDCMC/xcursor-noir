@@ -10,7 +10,7 @@ This cursor theme was made with multiple inspirations from multiple other cursor
 
 2. Extract the archive.
 
-3. Copy the "Noir" directory to `~/.local/share/icons`
+3. Copy the "Noir" and "Noir White" directory to `~/.local/share/icons`
 
 ## Copying
 
