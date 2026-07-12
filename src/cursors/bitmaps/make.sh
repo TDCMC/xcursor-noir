@@ -57,7 +57,7 @@ xcursorgen vertical-text.in ../../../Noir/cursors/vertical-text
 xcursorgen watch.in ../../../Noir/cursors/watch
 xcursorgen wayland_cursor.in ../../../Noir/cursors/wayland_cursor
 xcursorgen w-resize.in ../../../Noir/cursors/w-resize
-xcursorgen ul_angle.in ../../../Noir/cursors/X_cursor
+xcursorgen X_cursor.in ../../../Noir/cursors/X_cursor
 xcursorgen xterm.in ../../../Noir/cursors/xterm
 xcursorgen zoom-in.in ../../../Noir/cursors/zoom-in
 xcursorgen zoom-out.in ../../../Noir/cursors/zoom-out
